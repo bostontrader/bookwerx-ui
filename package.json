@@ -18,7 +18,8 @@
     "config": "1.21.0",
     "express": "4.14.0",
     "jade": "1.11.0",
-    "request": "2.74.0"
+    "request": "2.74.0",
+    "snyk": "^1.192.0"
   },
   "keywords": [
     "bookkeeping",
@@ -35,8 +36,11 @@
     "url": "https://github.com/bostontrader/bookwerx-ui.git"
   },
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "name": "bookwerx-ui",
-  "version": "0.8.0"
+  "version": "0.8.0",
+  "snyk": true
 }
