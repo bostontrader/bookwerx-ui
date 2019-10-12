@@ -8,6 +8,8 @@
 
 # Welcome to bookwerx-ui
 
+## This repository is obsolete and no longer maintaned.  It has been succeeded by [bookwerx-ui-elm](https://github.com/bostontrader/bookwerx-ui-elm)
+
 The purpose of **bookwerx-ui** is to provide an example user interface to the [bookwerx-core](https://github.com/bostontrader/bookwerx-core) bookkeeping engine.
 
 
